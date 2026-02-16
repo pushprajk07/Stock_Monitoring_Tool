@@ -6,19 +6,19 @@ import Pricing from "./Pricing";
 import Education from "./Education";
 
 import OpenAccount from "../OpenAccount";
-import Footer from "../Footer";
+// import Footer from "../Footer";
 
 function HomePage() {
   return (
     <>
-      
+
       <Hero />
       <Awards />
       <Stats />
       <Pricing />
       <Education />
       <OpenAccount />
-      <Footer />
+
     </>
   );
 }

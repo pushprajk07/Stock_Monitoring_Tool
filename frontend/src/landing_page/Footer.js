@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
@@ -13,43 +14,43 @@ function Footer() {
           </div>
           <div className="col">
             <p>Company</p>
-            <a href="">About</a>
+            <Link to="/about">About</Link>
             <br />
-            <a href="">Products</a>
+            <Link to="/product">Products</Link>
             <br />
-            <a href="">Pricing</a>
+            <Link to="/pricing">Pricing</Link>
             <br />
-            <a href="">Referral programme</a>
+            <Link to="/support">Referral programme</Link>
             <br />
-            <a href="">Careers</a>
+            <a href="https://zerodha.tech/careers" target="_blank">Careers</a>
             <br />
-            <a href="">Zerodha.tech</a>
+            <a href="https://zerodha.tech" target="_blank">Zerodha.tech</a>
             <br />
-            <a href="">Press & media</a>
+            <a href="https://zerodha.com/media" target="_blank">Press & media</a>
             <br />
-            <a href="">Zerodha cares (CSR)</a>
+            <a href="https://zerodha.com/csr" target="_blank">Zerodha cares (CSR)</a>
             <br />
           </div>
           <div className="col">
             <p>Support</p>
-            <a href="">Contact</a>
+            <a href="mailto:support@zerodha.com">Contact</a>
             <br />
-            <a href="">Support portal</a>
+            <Link to="/support">Support portal</Link>
             <br />
-            <a href="">Z-Connect blog</a>
+            <a href="https://zerodha.tech/blog/" target="_blank">Z-Connect blog</a>
             <br />
-            <a href="">List of charges</a>
+            <a href="https://zerodha.com/charges" target="_blank">List of charges</a>
             <br />
-            <a href="">Downloads & resources</a>
+            <a href="https://zerodha.com/resources" target="_blank">Downloads & resources</a>
             <br />
           </div>
           <div className="col">
             <p>Account</p>
-            <a href="">Open an account</a>
+            <Link to="/signup">Open an account</Link>
             <br />
-            <a href="">Fund transfer</a>
+            <a href="https://zerodha.com/fund-transfer" target="_blank">Fund transfer</a>
             <br />
-            <a href="">60 day challenge</a>
+            <a href="https://zerodha.com/60-day-challenge" target="_blank">60 day challenge</a>
             <br />
           </div>
         </div>
